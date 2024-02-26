@@ -40,7 +40,7 @@ const ForgotPasssword = () => {
     const uppercaseRegex = /[A-Z]/;
     const lowercaseRegex = /[a-z]/;
     const numberRegex = /[0-9]/;
-    const specialCharRegex = /[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/;
+    const specialCharRegex = /[!@#$%^&*()_+{}[\]:;<>,.?~\\-]/;
 
     return (
       lengthRegex.test(password) &&
